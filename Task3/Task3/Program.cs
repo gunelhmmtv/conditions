@@ -1,11 +1,11 @@
 ﻿Console.WriteLine("Saati daxil edin");
 int saat=Convert.ToInt32(Console.ReadLine());
 
-if (saat<12)
+if (saat<=12)
 {
     Console.WriteLine("Sabahiniz xeyir!");
 }
-else if (saat>12 && saat<17)
+else if (saat>12 && saat<=17)
 {
     Console.WriteLine("Gunortaniz xeyir!");
 }
